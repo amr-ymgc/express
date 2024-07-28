@@ -5,7 +5,7 @@ require('dotenv').config();
 
 // 接続情報を設定
 const { MongoClient } = require("mongodb");
-const uri = mongodb+srv://amr-ymgc:<password>@cluster0.apheoxt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0;
+const uri = mongodb+srv://amr-ymgc:shikishiki16@cluster0.apheoxt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0;
 const client = new MongoClient(uri);
 
 // corsミドルウェアを使用
